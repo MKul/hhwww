@@ -59,6 +59,7 @@
 .news-box {
     position: fixed;
     background: #ffffff;
+    border-radius: 15px;
     top: 25%;
     left: 25%;
     width: 50%;
@@ -66,6 +67,7 @@
     opacity: 0.8;
     display: block;
     z-index: 9999999999;
+    visibility: hidden;
 }
 
 .news-box-header {
@@ -97,6 +99,11 @@
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+.news_image {
+    float: right;
+    width: 400px;
 }
 
 #news-box-1{
