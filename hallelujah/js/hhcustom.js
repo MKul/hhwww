@@ -8,7 +8,7 @@ function showNewsBox() {
         obScreenDimmer = document.getElementById("screen-dimmer-1");
         obNewsBox.style.visibility = "visible";
         obScreenDimmer.style.visibility = "visible";
-        obNewsBox.style.opacity = 0.8;
+        obNewsBox.style.opacity = 0.9;
         obScreenDimmer.style.opacity = 0.8;
     }
 }
